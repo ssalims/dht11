@@ -33,7 +33,7 @@ void loop(){
                 Serial.print("Unknown error,\t"); 
                 break;
   }
- // DISPLAT DATA
+ // DISPLAY DATA
   Serial.print(DHT.humidity,1);
   Serial.print(",\t");
   Serial.println(DHT.temperature,1);
